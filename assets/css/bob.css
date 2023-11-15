@@ -9,22 +9,29 @@
   box-sizing: border-box;
 }
 
+.bob{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin: 40px 20px 0 20px;
+}
 
-
-.container .box{
+.bob .box{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
 }
 
-.container .dream{
+.bob .dream{
  display: flex;
  flex-direction: column;
  width: 32.5%;
  
 }
 
-.container .dream img{
+.bob .dream img{
  width: 100%;
  padding-bottom: 15px;
  border-radius: 5px;
