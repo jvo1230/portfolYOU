@@ -30,18 +30,18 @@
 .bob .boxs{
  display: flex;
  flex-direction: row;
- justify-content: space-between;
+ justify-content: center;
 }
 
 .bob .boxs .dream{
  display: flex;
  flex-direction: column;
- width: 22.5%;
- 
+ width: 26.5%;
+ margin-right: 20px;
 }
 
 .bob .boxs .dream img{
  width: 100%;
- padding-bottom: 15px;
+ padding-bottom: 0px;
  border-radius: 5px;
 }
