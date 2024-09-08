@@ -66,6 +66,25 @@
     .bob .boxs .dream{
       width: 100%;
   }
+   /* Ensure the image container takes up more width */
+   .bob .boxs {
+    display: flex;
+    justify-content: space-between; /* Spacing between image groups */
+    flex-wrap: wrap; /* Ensures content wraps if too wide */
+    width: 100%; /* Make the image container full width */
+  }
+
+  .bob .boxs .dream {
+    width: 24%; /* Set each column to take up a percentage of the width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers images horizontally */
+  }
+
+  .bob .boxs .dream img {
+    width: 100%; /* Ensure images fill their containers */
+    margin-bottom: 10px; /* Add space between images */
+  }
 }
 </style>
 </body>
